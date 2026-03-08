@@ -59,7 +59,7 @@ const PROJECTS: Project[] = [
     title: "Personal Portfolio",
     description: "A modern, responsive portfolio website showcasing skills and projects with smooth animations.",
     tags: ["React", "Express", "Framer Motion", "SQLite"],
-    image: "https://picsum.photos/seed/portfolio/600/400"
+    image: "pradip.jpeg"
   }
 ];
 
