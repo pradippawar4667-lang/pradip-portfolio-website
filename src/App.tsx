@@ -38,21 +38,21 @@ interface Skill {
 // --- Data ---
 const PROJECTS: Project[] = [
   {
-    title: "Food Recipe Web App",
-    description: "A comprehensive recipe discovery platform built with React, featuring search, filtering, and detailed recipe views.",
+    title: "AI-Escrow",
+    description: "A secure AI-powered escrow platform designed to facilitate safe online transactions by holding funds until both parties meet the agreed conditions, ensuring transparency and trust in digital payments.",
     tags: ["React", "API Integration", "Tailwind CSS"],
     image: "https://picsum.photos/seed/food/600/400"
   },
   {
-    title: "Mobile Banking Application",
-    description: "A community engagement project focused on secure mobile banking interfaces and user experience.",
-    tags: ["UI/UX", "Mobile First", "React"],
+    title: "Hotel Management System",
+    description: "A comprehensive hotel management solution with booking, check-in, and guest services.",
+    tags: ["UI/UX", "php", "html", "css"],
     image: "https://picsum.photos/seed/banking/600/400"
   },
   {
     title: "Student Management System",
     description: "A robust Java-based desktop application for managing student records, grades, and attendance.",
-    tags: ["Java", "Swing", "MySQL"],
+    tags: ["react", "express", "mongodb"],
     image: "https://picsum.photos/seed/student/600/400"
   },
   {
@@ -79,10 +79,10 @@ const SKILLS: Skill[] = [
 ];
 
 const CERTIFICATIONS = [
-  "Full Stack Web Development - Online Course",
-  "Java Programming Certification",
-  "Responsive Web Design - FreeCodeCamp",
-  "Database Management Systems Workshop"
+  "Data Structures and Algorithms in java - apna college",
+  "LabLab AI hackathon participant",
+  "Artificial Intelligence fondamentals - IBM",
+  "AI and Life and Employability - Infosis Foundation",
 ];
 
 // --- Components ---
