@@ -1,7 +1,7 @@
 import express from "express";
 import path from "path";
 import { fileURLToPath } from "url";
-import contactRoutes from "./backend/routes/contactRoutes.js";
+import * as contactRoutesModule from "./backend/routes/contactRoutes";
 import cors from "cors";
 
 const __filename = fileURLToPath(import.meta.url);
@@ -14,8 +14,8 @@ async function startServer() {
   app.use(cors());
   app.use(express.json());
 
-  // API routes
-  app.use("/api", contactRoutes);
+const contactRoutes = (contactRoutesModule as any).default || contactRoutesModule;
+app.use("/api", contactRoutes);
 
   // Health check
   app.get("/api/health", (req, res) => {
