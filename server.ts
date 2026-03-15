@@ -1,7 +1,7 @@
 import express from "express";
 import path from "path";
 import { fileURLToPath } from "url";
-import contactRoutes from "./backend/routes/contactRoutes";
+import contactRoutes from "./backend/routes/contactRoutes.js";
 import cors from "cors";
 
 const __filename = fileURLToPath(import.meta.url);
